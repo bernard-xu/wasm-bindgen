@@ -6,10 +6,11 @@ online][compiled]
 [compiled]: https://rustwasm.github.io/wasm-bindgen/exbuild/hello_world/
 [dox]: https://rustwasm.github.io/docs/wasm-bindgen/examples/hello-world.html
 
-You can build the example locally with:
+你可以通过以下命令在本地构建和运行示例：
 
-```
-$ npm run serve
-```
+```bash
+# 安装依赖
+pnpm install
 
-and then visiting http://localhost:8080 in a browser should run the example!
+# 启动开发服务器
+pnpm run serve
